@@ -1,0 +1,6 @@
+/* box-sizing  ensuring padding in 3rd party software
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+*/
+
