@@ -19,9 +19,10 @@
 </head>
 
 <body>
+    <!-- copied style set from w3 schools -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="about.html">Jodes</a>
+            <a class="navbar-brand" href="about.html">Jody Eggleston</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,65 +36,71 @@
             </div>
         </div>
     </nav>
-    <div class="container">
+    <!-- used grids (containers, rows, columns) to organize info for responsiveness -->
+    <main class="container mb-5">
         <div class="row">
-            <div class="col-4 bg-white mt-3 p-3">
-                <h1>Portfolio</h1>
-                <hr>
-                <div class="container">
-                    <div class="row">
+            <div class="col-6 bg-white mt-3 p-3">
+                <header><h1>Portfolio</h1></header>
+                <div class="row">
+                    <section class="col-9 col-md-6">
+                        <div class="card">
+                            <img src="./assets/images/project_1.png" alt="Screenshot of Horiseon website">
+                            <div class="my-label">
+                                <div class="bg title text-center p-1">
+                                    Project 1
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-9 col-md-6">
                         <div class="card">
                             <img src="https://via.placeholder.com/150" alt="placeholder">
-                            <div class="title text-center">Word Guess
-                                <div class="container text-center">
+                            <div class="my-label">
+                                <div class="bg title text-center p-1">
+                                    Project 2
                                 </div>
                             </div>
                         </div>
+                    </section>
+                    <section class="col-9 col-md-6">
                         <div class="card">
                             <img src="https://via.placeholder.com/150" alt="placeholder">
-                            <div class="title text-center">RPG Game
-                                <div class="container text-center">
+                            <div class="my-label">
+                                <div class="bg title text-center p-1">
+                                    Project 3
                                 </div>
                             </div>
                         </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="card">
-                                    <img src="https://via.placeholder.com/150" alt="placeholder">
-                                    <div class="title text-center">Trivia Game
-                                        <div class="container text-center">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img src="https://via.placeholder.com/150" alt="placeholder">
-                                    <div class="title text-center">Info Widget
-                                        <div class="container text-center">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="card">
-                                            <img src="https://via.placeholder.com/150" alt="placeholder">
-                                            <div class="title text-center">Rock Paper Scissors
-                                                <div class="container text-center">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                    </section>
+                    <section class="col-9 col-md-6">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/150" alt="placeholder">
+                            <div class="my-label">
+                                <div class="bg title text-center p-1">
+                                    Project 4
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
+                    <section class="col-9 col-md-6">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/150" alt="placeholder">
+                            <div class="my-label">
+                                <div class="bg title text-center p-1">
+                                    Project 5
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>
-    </div>
-    <footer class="footer bg-light">
-        <div class="container text-center">
-            <p class="pt-3 pb-3 mt-3">Copyright © 2020</p>
-        </div>
+    </main>
+    <br>
+    <br>
+    <footer
+        class="footer bg-light border border-bottom-0 border-left-0 border-right-0 p-3 text-center w-100 fixed-bottom">
+        <span>Copyright © 2020</span>
     </footer>
     <!-- javascript -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
