@@ -17,14 +17,13 @@ body {
   display: inline;
   color: white;
   text-align: center;
-  
-  }
+}
 
 .navbar-brand {
   padding: 15px ;
   margin: -10px;
-  /* margin-left: -16px; */
-  }
+
+}
  
   /* adjusted heading to be the same color, padding and margins throughout all pages*/
 .container h1 {
@@ -34,7 +33,7 @@ body {
   border-bottom: 2px solid #ccc;
   margin-bottom: 25px;
   width: 100%;
- } 
+} 
 
  /* floated image to sit to the left of the text on about page */
 .aboutImg {
@@ -68,6 +67,11 @@ text-indent: 4px;
   width: 100%;
 }
 
+.row {
+  margin-left: -15px;
+}
+
+
 /* portfolio page card labels are all the same text, color, shape and margins */
 .my-label {
   background-color: mediumturquoise;
@@ -83,10 +87,3 @@ text-indent: 4px;
   border-color: mediumturquoise !important;
   border-width: 4px !important;
 }
-
-/* @media screen and (max-width: 768px) { */
- 
-/* .wrapper {
-  width: 1024px;
-} 
-*/
