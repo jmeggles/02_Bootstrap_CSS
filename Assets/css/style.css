@@ -18,9 +18,15 @@ body {
   color: white;
   width: 30%;
   text-align: center;
-  margin-left: -15px;
+  /* margin-left: -15px; */
   }
 
+  .navbar-brand {
+    padding: 15px ;
+    margin: -16px;
+    
+  }
+ 
   /* adjusted heading to be the same color, padding and margins throughout all pages*/
  .container h1 {
   color: mediumturquoise;
@@ -38,9 +44,14 @@ body {
 
 /* adjusted text to fit page better. still learning how to use em but it worked here */
 p {
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
   line-height: 1.75em;
+}
+/* adjusted color to match rest of page */
+.table {
+color: gray;
+text-indent: 5px;
 }
 
 /* portfolio page card adjusted shape and margins to be uniform */
@@ -68,10 +79,9 @@ p {
   border-width: 4px !important;
 }
 
-/* not exactly clear if this is active.   
 @media screen and (max-width: 768px) {
  
-.wrapper {
+/* .wrapper {
   width: 1024px;
 } 
-*/
+*/ */
