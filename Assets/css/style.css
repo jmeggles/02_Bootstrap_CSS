@@ -17,17 +17,17 @@ body {
   display: inline;
   color: white;
   text-align: center;
-  /* margin-left: -15px; */
+  
   }
 
-  .navbar-brand {
-    padding: 15px ;
-    margin: -16px;
-    
+.navbar-brand {
+  padding: 15px ;
+  margin: -10px;
+  /* margin-left: -16px; */
   }
  
   /* adjusted heading to be the same color, padding and margins throughout all pages*/
- .container h1 {
+.container h1 {
   color: mediumturquoise;
   padding: 20px;
   background: #fff;
