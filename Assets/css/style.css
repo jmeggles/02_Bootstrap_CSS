@@ -85,7 +85,7 @@ text-indent: 4px;
   border-width: 4px !important;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) { */
  
 /* .wrapper {
   width: 1024px;
