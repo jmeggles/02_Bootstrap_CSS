@@ -48,10 +48,16 @@ p {
   margin-left: 15px;
   line-height: 1.75em;
 }
+
 /* adjusted color to match rest of page */
 .table {
 color: gray;
-text-indent: 5px;
+text-indent: 4px;
+}
+
+.table td, .table th {
+  border-top: white;
+  border-bottom: white;
 }
 
 /* portfolio page card adjusted shape and margins to be uniform */
