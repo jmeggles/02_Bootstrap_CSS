@@ -7,6 +7,8 @@ I originally began this project under a different repo name *02_Bootstrap* then 
 (https://github.com/jmeggles/02_Bootstrap_CSS)
 (https://jmeggles.github.io/02_Bootstrap_CSS/)
 
+<img src="assets/images/me.pmg">
+
 
 ## About me
 Brief discription about myself, experiences, and random facts. 
