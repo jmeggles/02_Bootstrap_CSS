@@ -11,7 +11,7 @@ body {
 
 /* adjusted navbar to preference in style, text and font, and color. */
 .navbar-light .navbar-brand {
-  font-family: cursive;
+  font-family: fantasy;
   font-size: 20px;
   background-color: #530eb0; 
   display: inline;
@@ -32,6 +32,7 @@ body {
 
   /* adjusted heading to be the same color, padding and margins throughout all pages*/
 .container h1 {
+  font-family: fantasy;
   color: #530eb0;
   padding: 20px;
   background: #fff;
@@ -43,7 +44,7 @@ body {
  /* floated image to sit to the left of the text on about page */
 .aboutImg {
   float: left;
-  box-shadow: grey 0 0 10px 2px;
+  box-shadow: #b7acd6 0 0 10px 2px;
 }
 
 /* adjusted text to fit page better. still learning how to use 'em' but it worked here */
@@ -72,7 +73,7 @@ figure {
   bottom: 10%; 
   width: 100%; 
   align-content: center;
-  box-shadow: grey 0 0 10px 2px;
+  box-shadow: #b7acd6 0 0 10px 2px;
 }
 
 .img-responsive {
@@ -87,8 +88,8 @@ figure {
 /* portfolio page card labels are all the same text, color, shape and margins */
 .my-label {
   background-color: #530eb0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
+  font-family: fantasy;
+  font-size: 22px;
   color:lightgrey;
   position: absolute;
   bottom: 25px;
@@ -106,3 +107,4 @@ figure {
   border-color: #530eb0 !important;
   border-width: 4px !important;
 }
+
