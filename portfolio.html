@@ -5,13 +5,16 @@
 <head>
     <meta charset="UTF-8">
     <!-- added shrink to fit=no to be responsive-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
 
     <title>Bootstrap homework about Jody Eggleston</title>
 
     <!-- outside resources -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+        crossorigin="anonymous">
 
     <!-- local styles -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -23,15 +26,20 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="index.html">Jody Eggleston</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse justify-content-end"
+                id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="index.html"> About </a>
-                    <a class="nav-item nav-link" href="portfolio.html"> Portfolio </a>
-                    <a class="nav-item nav-link" href="contact.html"> Contact </a>
+                    <a class="nav-item nav-link" href="portfolio.html">
+                        Portfolio </a>
+                    <a class="nav-item nav-link" href="contact.html"> Contact
+                    </a>
                 </div>
             </div>
         </div>
@@ -40,60 +48,85 @@
     <!-- started with card style from w3 schools and added padding, margins, and background color for text layout over image-->
     <main class="container">
         <div class="row">
-            <section class="col-lg-6 bg-white mt-3 p-3">
+            <section class="col-9 bg-white mt-3 p-3" id="portfoliobox">
                 <header>
                     <h1>Portfolio</h1>
                 </header>
                 <div class="row">
                     <div class="col-sm-6">
                         <figure class="card">
-                            <a href="https://jmeggles.github.io/01_CodeRefactor/" target="_blank">
-                            <img class="img-responsive" src="./assets/images/horiseon.png" alt="Screenshot of Horiseon website">
-                            <figcaption> 
-                                <strong>Code Refactoring</strong>
-                            </figcaption>
+                            <a href="https://jmeggles.github.io/01_CodeRefactor/"
+                                target="_blank">
+                                <img class="img-responsive"
+                                    src="./assets/images/horiseon.png"
+                                    alt="Screenshot of Horiseon website">
+                                <div class="my-label">
+                                    <div class="bg title text-center p-1">
+                                        Code Refactoring
+                                    </div>
+                                </div>
                             </a>
                         </figure>
                     </div>
                     <div class="col-sm-6">
-                        <div class="card">
-                            <img src="./assets/images/quiz.png" alt="screenshot of code quiz project">
-                            <div class="my-label">
-                                <div class="bg title text-center p-1">
-                                    Code Quiz
+                        <figure class="card">
+                            <a href="https://jmeggles.github.io/02_Code_Quiz/"
+                                target="_blank">
+                                <img class="img-responsive"
+                                    src="./assets/images/quiz.png"
+                                    alt="screenshot of code quiz project">
+                                <div class="my-label">
+                                    <div class="bg title text-center p-1">
+                                        Code Quiz
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
+                            </a>
+                        </figure>
                     </div>
                     <div class="col-sm-6">
-                        <div class="card">
-                            <img src="./assets/images/planner.png" alt="screenshot of daily planner project">
-                            <div class="my-label">
-                                <div class="bg title text-center p-1">
-                                    Daily Planner
+                        <figure class="card">
+                            <a href="https://jmeggles.github.io/05_Daily_Planner/"
+                                target="_blank">
+                                <img class="img-responsive"
+                                    src="./assets/images/planner.png"
+                                    alt="screenshot of daily planner project">
+                                <div class="my-label">
+                                    <div class="bg title text-center p-1">
+                                        Daily Planner
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
+                            </a>
+                        </figure>
                     </div>
                     <div class="col-sm-6">
-                        <div class="card">
-                            <img src="./assets/images/gigcrasher.png" alt="screenshot of gig-crasher project">
-                            <div class="my-label">
-                                <div class="bg title text-center p-1">
-                                    Gig-Crasher
+                        <figure class="card">
+                            <a href="https://kisjan4ik.github.io/Gig-Crasher/"
+                                target="_blank">
+                                <img class="img-responsive"
+                                    src="./assets/images/gigcrasher.png"
+                                    alt="screenshot of gig-crasher project">
+                                <div class="my-label">
+                                    <div class="bg title text-center p-1">
+                                        Gig-Crasher
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
+                            </a>
+                        </figure>
                     </div>
                     <div class="col-sm-6">
-                        <div class="card">
-                            <img src="https://via.placeholder.com/150" alt="placeholder">
-                            <div class="my-label">
-                                <div class="bg title text-center p-1">
-                                    TBA
+                        <figure class="card">
+                            <a href="#"
+                                target="_blank">
+                                <img class="img-responsive"
+                                    src="./assets/images/placeholder.png"
+                                    alt="placeholder">
+                                <div class="my-label">
+                                    <div class="bg title text-center p-1">
+                                        Project...to be determined
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
+                            </a>
+                        </figure>
                     </div>
                 </div>
             </section>
@@ -110,10 +143,12 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
 
