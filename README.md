@@ -19,4 +19,4 @@ This page will continue to be updated with information of projects completed.
 Contains my contact info and social media link along with an easy fill form.
 
 ### License
-None
+© Copyright 2020 Jody Eggleston
