@@ -4,13 +4,15 @@ This project is a responsive portfolio about myself based on reference images of
 
 I originally began this project under a different repo name *02_Bootstrap* then cloned and adjusted from there, now *02_Bootstrap_CSS*
 
+![](https://media.giphy.com/media/XekbvmcpP01KaD8VDo/giphy.gif)
+
 - (https://github.com/jmeggles/02_Bootstrap_CSS)
 - (https://jmeggles.github.io/02_Bootstrap_CSS/)
 
 <img src="/Assets/Images/screenshot.png" width=600>
 <img src="/Assets/Images/screenshot2.png" width=600>
 <img src="/Assets/Images/screenshot3.png" width=600>
-![](<iframe src="https://giphy.com/embed/XekbvmcpP01KaD8VDo" width="480" height="422" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/XekbvmcpP01KaD8VDo">via GIPHY</a></p>)
+
 
 ## About me
 Brief discription about myself, experiences, and random facts. 
