@@ -21,7 +21,7 @@ Brief discription about myself, experiences, and random facts.
 This page will continue to be updated with information of projects completed. 
 
 ## Contact
-Contains my contact info and social media link along with an easy fill form.
+Contains my contact info and social media links along with an easy fill form.
 
 ### License
 © Copyright 2020 Jody Eggleston
