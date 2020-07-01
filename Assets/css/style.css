@@ -73,9 +73,9 @@ text-indent: 4px;
 
 /* portfolio page card adjusted shape and margins to be uniform */
 figure {
-  margin-top: 20px; 
-  margin-bottom: 15px;
-  margin-left: 40%;
+  margin-top: 25px; 
+  margin-bottom: 20px;
+  margin-left: 18%;
   color: white;
   bottom: 10%; 
   width: 100%; 
@@ -83,15 +83,14 @@ figure {
   box-shadow: #acabae 0 0 10px 2px;
 }
 
+.col-xs-6 {
+  margin-right: 12%;
+}
+
 figure:hover {
   box-shadow: 0 4px  8px  6px rgba(200, 359, 345, 0.60),
               0 6px 20px 10px rgba(224, 148, 248, 0.52);
 }
-
-
-/* .row {
-  margin-left: -15px;
-} */
 
 /* portfolio page card labels are all the same text, color, shape and margins */
 .my-label {
@@ -107,6 +106,7 @@ figure:hover {
 
  #aboutbox, #portfoliobox, #contactbox {
   box-shadow: #acabae 0 0 10px 2px;
+  margin-bottom: 20%;
  }
 
  /* #aboutbox:hover, #portfoliobox:hover, #contactbox:hover {
@@ -123,7 +123,6 @@ figure:hover {
   box-shadow: 0 4px  8px  6px rgba(200, 359, 345, 0.60),
               0 6px 20px 10px rgba(224, 148, 248, 0.52);
  }
-
 
 .footer {
   border-color: #530eb0 !important;
