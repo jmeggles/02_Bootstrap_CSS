@@ -20,6 +20,10 @@ body {
   box-shadow: grey 0 0 10px 2px;
 }
 
+.nav-item {
+  font-family: fantasy;
+}
+
 .navbar-brand {
   padding: 15px ;
   margin: -10px;
