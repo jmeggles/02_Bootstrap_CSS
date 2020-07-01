@@ -23,12 +23,19 @@ body {
 .nav-item {
   font-family: fantasy;
 }
+.nav-item:hover {
+  box-shadow: 0 4px  8px  6px rgba(200, 359, 345, 0.60),
+  0 6px 20px 10px rgba(224, 148, 248, 0.52);
+}
 
 .navbar-brand {
   padding: 15px ;
   margin: -10px;
 }
 
+#nametag {
+  color: white;
+}
 /* adjusted heading to be the same color, padding and margins throughout all pages*/
 .container h1 {
   font-family: fantasy;
@@ -68,27 +75,23 @@ text-indent: 4px;
 figure {
   margin-top: 20px; 
   margin-bottom: 15px;
+  margin-left: 40%;
   color: white;
   bottom: 10%; 
   width: 100%; 
-  align-content: center;
+  /* align-content: center;  */
   box-shadow: #acabae 0 0 10px 2px;
 }
 
 figure:hover {
   box-shadow: 0 4px  8px  6px rgba(200, 359, 345, 0.60),
-  0 6px 20px 10px rgba(224, 148, 248, 0.52);
+              0 6px 20px 10px rgba(224, 148, 248, 0.52);
 }
 
 
-.img-responsive {
-  margin-left: 12%;
-}
-
-.row {
+/* .row {
   margin-left: -15px;
-}
-
+} */
 
 /* portfolio page card labels are all the same text, color, shape and margins */
 .my-label {
@@ -113,17 +116,15 @@ figure:hover {
 
  .contactlink:hover {
   box-shadow: 0 4px  8px  6px rgba(200, 359, 345, 0.60),
-  0 6px 20px 10px rgba(224, 148, 248, 0.52);
+              0 6px 20px 10px rgba(224, 148, 248, 0.52);
  }
  
-.form-control:hover {
+.form-control:hover, .btn:hover {
   box-shadow: 0 4px  8px  6px rgba(200, 359, 345, 0.60),
-  0 6px 20px 10px rgba(224, 148, 248, 0.52);
+              0 6px 20px 10px rgba(224, 148, 248, 0.52);
  }
-}
 
-/* tried a million times to get the color right on the footer!!  */
-/* had to override bootstrap settings*/
+
 .footer {
   border-color: #530eb0 !important;
   border-width: 4px !important;
