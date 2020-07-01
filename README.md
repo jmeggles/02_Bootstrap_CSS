@@ -9,9 +9,9 @@ I originally began this project under a different repo name *02_Bootstrap* then 
 - (https://github.com/jmeggles/02_Bootstrap_CSS)
 - (https://jmeggles.github.io/02_Bootstrap_CSS/)
 
-<img src="/Assets/Images/screenshot.png" width=600>
-<img src="/Assets/Images/screenshot2.png" width=600>
-<img src="/Assets/Images/screenshot3.png" width=600>
+<img src="./assets/images/screenshot.png" width=600>
+<img src="./assets/images/screenshot2.png" width=600>
+<img src="./assets/images/screenshot3.png" width=600>
 
 
 ## About me
