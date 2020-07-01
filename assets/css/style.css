@@ -124,6 +124,18 @@ figure:hover {
               0 6px 20px 10px rgba(224, 148, 248, 0.52);
  }
 
+ #linkedin, #github {
+   margin-left: 15%;
+ }
+
+ #name {
+   padding-left: 8%;
+ }
+
+ #email {
+   margin-left: 4%;
+ }
+
 .footer {
   border-color: #530eb0 !important;
   border-width: 4px !important;
