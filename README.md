@@ -6,8 +6,8 @@ I originally began this project under a different repo name *02_Bootstrap* then 
 
 ![](https://media.giphy.com/media/XekbvmcpP01KaD8VDo/giphy.gif)
 
-- (https://github.com/jmeggles/02_Bootstrap_CSS)
-- (https://jmeggles.github.io/02_Bootstrap_CSS/)
+- (https://github.com/jmeggles/Responsive-Portfolio)
+- (https://jmeggles.github.io/Responsive-Portfolio/)
 
 <img src="./assets/images/screenshot.png" width=600>
 <img src="./assets/images/screenshot2.png" width=600>
