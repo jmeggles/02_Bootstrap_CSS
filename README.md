@@ -4,7 +4,7 @@ This project is a responsive portfolio about myself based on reference images of
 
 I originally began this project under a different repo name *02_Bootstrap* then cloned and adjusted from there, now *02_Bootstrap_CSS*
 
-![](https://media.giphy.com/media/XekbvmcpP01KaD8VDo/giphy.gif)
+![](https://giphy.com/gifs/S6lrsgIY4MsEDcR1ZN/html5)
 
 - (https://github.com/jmeggles/Responsive-Portfolio)
 - (https://jmeggles.github.io/Responsive-Portfolio/)
