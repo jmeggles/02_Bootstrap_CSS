@@ -2,6 +2,7 @@
 /* changed font to be more streamlined and matched color and position as close as possible to reference image provided in homework */
 body {
   background-image: url("../Images/bloom.png");
+  background-image: linear-gradient(white, #D9CEEE,#685393);
   font-family: sans-serif;
   font-size: 18px;
   color: #777;
@@ -12,12 +13,12 @@ body {
 /* adjusted navbar to preference in style, text and font, and color. */
 .navbar-light .navbar-brand {
   font-family: fantasy;
-  font-size: 20px;
-  background-color: #530eb0; 
+  font-size: 30px;
+  /* background-color: #530eb0;  */
   display: inline;
-  color: white;
+  color: #530eb0;
   text-align: center;
-  box-shadow: grey 0 0 10px 2px;
+  /* box-shadow: grey 0 0 10px 2px; */
 }
 
 .nav-item {
@@ -34,7 +35,8 @@ body {
 }
 
 #nametag {
-  color: white;
+  color: #530eb0;
+  font-size: 30px;
 }
 /* adjusted heading to be the same color, padding and margins throughout all pages*/
 .container h1 {
