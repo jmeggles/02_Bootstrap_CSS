@@ -83,10 +83,12 @@ figure {
   box-shadow: #acabae 0 0 10px 2px;
 }
 
+/* responsiveness to cards on portfolio page */
 .col-xs-6 {
   margin-right: 12%;
 }
 
+/* added shoadow on all project links to higight when hovered */
 figure:hover {
   box-shadow: 0 4px  8px  6px rgba(200, 359, 345, 0.60),
               0 6px 20px 10px rgba(224, 148, 248, 0.52);
@@ -104,34 +106,34 @@ figure:hover {
   box-shadow: #acabae 0 0 10px 2px;
 }
 
+/* shadow on all containers to make it less flat looking */
  #aboutbox, #portfoliobox, #contactbox {
   box-shadow: #acabae 0 0 10px 2px;
   margin-bottom: 20%;
  }
 
- /* #aboutbox:hover, #portfoliobox:hover, #contactbox:hover {
-  box-shadow: 0 4px  8px  6px rgba(200, 359, 345, 0.60),
-  0 6px 20px 10px rgba(224, 148, 248, 0.52);
- } */
-
+/* hover shadow for all links to give it color */
  .contactlink:hover {
   box-shadow: 0 4px  8px  6px rgba(200, 359, 345, 0.60),
               0 6px 20px 10px rgba(224, 148, 248, 0.52);
  }
  
+/* hover shadow for all links to give it color */
 .form-control:hover, .btn:hover {
   box-shadow: 0 4px  8px  6px rgba(200, 359, 345, 0.60),
               0 6px 20px 10px rgba(224, 148, 248, 0.52);
  }
 
+/* hover shadow for all links to give it color */
  #linkedin, #github {
    margin-left: 15%;
  }
 
+/* centered name on conact page with link images */
  #name {
    padding-left: 8%;
  }
-
+/* centered email on contact page with link images */
  #email {
    margin-left: 4%;
  }
