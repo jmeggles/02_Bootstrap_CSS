@@ -1,7 +1,7 @@
 /* used bg image from https://www.toptal.com/designers/subtlepatterns/ */
 /* changed font to be more streamlined and matched color and position as close as possible to reference image provided in homework */
 body {
-  background-image: url("./images/bloom.png");
+  background-image: url("/assets/images/bloom.png");
   font-family: sans-serif;
   font-size: 18px;
   color: #777;
