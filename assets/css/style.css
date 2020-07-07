@@ -107,7 +107,7 @@ figure:hover {
 }
 
 /* hover shadow for all links to give it color */
-figure:hover, .form-control:hover, .btn:hover, .img-fluid:hover {
+figure:hover, .form-control:hover, .btn:hover, .img-fluid:hover, #email:hover, #resume:hover, #linkedin:hover, #github:hover {
   box-shadow: 0 4px  8px  6px rgba(200, 359, 345, 0.60),
               0 6px 20px 10px rgba(224, 148, 248, 0.52);
 }
