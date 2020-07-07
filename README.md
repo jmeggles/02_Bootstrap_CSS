@@ -4,8 +4,8 @@ This project is a responsive portfolio about myself based on reference images of
 
 ![](https://media.giphy.com/media/S6lrsgIY4MsEDcR1ZN/giphy.gif)
 
-- (https://github.com/jmeggles/Responsive-Portfolio)
-- (https://jmeggles.github.io/Responsive-Portfolio/)
+- (https://github.com/jmeggles/Portfolio_Responsive)
+- (https://jmeggles.github.io/Portfolio_Responsive/)
 
 <img src="./assets/images/screenshot.png" width=600>
 <img src="./assets/images/screenshot2.png" width=600>
