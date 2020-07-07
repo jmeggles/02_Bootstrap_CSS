@@ -103,38 +103,33 @@ figure:hover {
 /* shadow on all containers to make it less flat looking */
 #aboutbox, #portfoliobox, #contactbox {
   box-shadow: #acabae 0 0 10px 2px;
-  /* margin-bottom: 20%; */
-}
-
-
-#portfoliobox {
-  margin-bottom: 25%;
+  margin-bottom: 20%;
 }
 
 /* hover shadow for all links to give it color */
-figure:hover, .form-control:hover, .btn:hover, .contactlink:hover {
+figure:hover, .form-control:hover, .btn:hover, .img-fluid:hover {
   box-shadow: 0 4px  8px  6px rgba(200, 359, 345, 0.60),
               0 6px 20px 10px rgba(224, 148, 248, 0.52);
 }
 
 /* hover shadow for all links to give it color */
-#linkedin, #github {
-   margin-left: 25%;
-}
+/* #linkedin, #github {
+  margin-left: 25%;
+} */
 
 /* centered name on conact page with link images */
-#resume {
-   margin-left: 16%;
+/* #resume {
+  margin-left: 16%;
 }
 
 #name {
    padding-left: 16%
-}
+}  */
  
 /* centered email on contact page with link images */
-#email {
+/* #email {
    margin-left: 18%;
-}
+}  */ 
 
 .footer {
   border-color: #530eb0 !important;
