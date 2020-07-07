@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- added shrink to fit=no to be responsive-->
+    <!-- added shrink to fit=no to be fluidimg-fluid-->
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
 
@@ -24,7 +24,7 @@
 <body>
     <!-- copied style set from w3 schools -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
+        <div class="container col-sm-6">
             <a class="navbar-brand" id="nametag">Jody Eggleston</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarNavAltMarkup"
@@ -44,21 +44,21 @@
             </div>
         </div>
     </nav>
-    <!-- used grids (containers, rows, columns and sub columns) to organize info for responsiveness -->
+    <!-- used grids (containers, rows, columns and sub columns) to organize info for fluidimg-fluidness -->
     <!-- started with card style from w3 schools and added padding, margins, and background color for text layout over image-->
-    <main class="container">
-        <div class="row"></div>
-            <section class="col-lg-12 bg-white mt-3 p-3" id="portfoliobox">
-                <header>
+    <main class="container col-lg-6 d-flex justify-content-center bg-white" id="portfoliobox">
+        <div class="row">
+            <section class="col-sm">
+                <header id="portfolioheader">
                     <h1>Portfolio</h1>
                 </header>
-            </div>        
-                <div class="row" id="row1">
-                    <div class="col-xs-6  justify-content-center" id="card1">
+             
+                <div class="row">
+                    <div class="col-lg-6 d-flex justify-content-center">
                         <figure class="card">
                             <a href="https://kisjan4ik.github.io/Gig-Crasher/"
                                 target="_blank">
-                                <img class="img-responsive"
+                                <img class="img-fluid"
                                     src="./assets/images/gigcrasher.png"
                                     alt="screenshot of gig-crasher project">
                                 <div class="my-label">
@@ -69,11 +69,11 @@
                             </a>
                         </figure>
                     </div>
-                    <div class="col-xs-6  justify-content-center" id="card2">
+                    <div class="col-lg-6 d-flex justify-content-center">
                         <figure class="card">
                             <a href="https://jmeggles.github.io/04_Code_Quiz/"
                                 target="_blank">
-                                <img class="img-responsive"
+                                <img class="img-fluid"
                                     src="./assets/images/quiz.png"
                                     alt="screenshot of code quiz project">
                                 <div class="my-label">
@@ -86,11 +86,11 @@
                     </div>
                 </div>    
                 <div class="row" id="row2">    
-                    <div class="col-xs-6 justify-content-center" id="card3">
+                    <div class="col-lg-6 d-flex justify-content-center">
                         <figure class="card">
                             <a href="https://jmeggles.github.io/05_Daily_Planner/"
                                 target="_blank">
-                                <img class="img-responsive"
+                                <img class="img-fluid"
                                     src="./assets/images/planner.png"
                                     alt="screenshot of daily planner project">
                                 <div class="my-label">
@@ -101,16 +101,16 @@
                             </a>
                         </figure>
                     </div>
-                    <div class="col-xs-6 justify-content-center" id="card4">
+                    <div class="col-lg-6 d-flex justify-content-center">
                         <figure class="card">
                             <a href="#"
                                 target="_blank">
-                                <img class="img-responsive"
+                                <img class="img-fluid"
                                     src="./assets/images/placeholder.png"
                                     alt="placeholder">
                                 <div class="my-label">
                                     <div class="bg title text-center p-1">
-                                        Project...to be determined
+                                        TBD
                                     </div>
                                 </div>
                             </a>
@@ -118,16 +118,16 @@
                     </div>
                 </div>
                 <div class="row" id="row3">
-                    <div class="col-xs-6 justify-content-center" id="card5">
+                    <div class="col-lg-6 d-flex justify-content-center">
                         <figure class="card">
                             <a href="#"
                                 target="_blank">
-                                <img class="img-responsive"
+                                <img class="img-fluid"
                                     src="./assets/images/placeholder.png"
                                     alt="placeholder">
                                 <div class="my-label">
                                     <div class="bg title text-center p-1">
-                                        Project...to be determined
+                                        TBD
                                     </div>
                                 </div>
                             </a>
