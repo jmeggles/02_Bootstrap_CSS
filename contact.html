@@ -23,7 +23,7 @@
 <body>
     <!-- copied style from w3 schools -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container col-sm-6">
+        <div class="container col-sm-12 col-md-6">
             <a class="navbar-brand" id="nametag">Jody Eggleston</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarNavAltMarkup"
@@ -44,10 +44,10 @@
         </div>
     </nav>
     <!-- had to adjust col numbers to fit within screen properly -->
-    <main class="container col-lg-6 d-flex justify-content-center bg-white"
-        id="contactbox">
-        <div class="row">
-            <section class="col-sm">
+    <main class="container col-sm-12 col-md-6 bg-white" id="contactbox">
+        <section class="row">
+             <div class="col-sm">
+       
                 <header>
                     <h1>Contact</h1>
                 </header>
@@ -65,7 +65,7 @@
                     <tr>
                         <th>Resumè</th>
                         <td>
-                            <!-- commented out resume until needed to keep personal information from being viewed unnecessarily -->
+                            <!-- commented out resume link until needed, to keep personal information from being viewed unnecessarily -->
                             <!--                             <a href="https://docs.google.com/document/d/1lsym3Bk-U7YgthzuXusyM7t4-XZJJstA6pkYALkD7lQ/edit?usp=sharing"
                                 target="_blank"> -->
                             <img src="./assets/images/resume.png"
@@ -91,7 +91,7 @@
                 <hr>
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-sm-12">
                             <label><b>Name</b></label>
                             <input placeholder="Your Name"
                                 style="margin-bottom: 30px"
@@ -112,8 +112,8 @@
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     </main>
     <br><br><br>
     <!-- used copyright symbol from https://en.wikipedia.org/wiki/Copyright_symbol#:~:text=In%20the%20United%20States%2C%20the%20copyright%20notice%20consists%20of%3A,which%20they%20are%20generally%20known. -->

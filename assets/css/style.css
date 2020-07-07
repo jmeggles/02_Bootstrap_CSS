@@ -112,6 +112,11 @@ figure:hover, .form-control:hover, .btn:hover, .img-fluid:hover, #email:hover, #
               0 6px 20px 10px rgba(224, 148, 248, 0.52);
 }
 
+/* adjusted the placeholder text */
+.form-control {
+  font-style: italic;
+}
+
 /* hover shadow for all links to give it color */
 /* #linkedin, #github {
   margin-left: 25%;
@@ -135,48 +140,3 @@ figure:hover, .form-control:hover, .btn:hover, .img-fluid:hover, #email:hover, #
   border-color: #530eb0 !important;
   border-width: 4px !important;
 } 
-
-
-/* @media all and (max-width: 640px), all and (max-device-width: 640px) {
-  .container {
-    width: 100%;
-  }
-} */
-
-
-/* @media(max-width: 576px){
-  #aboutbox{
-      width:90%;
-      margin:auto;
-     } 
-    .logos{
-        width:30%;
-    }
-    .navbar-brand{
-        width:70%;
-    }
-    #portfoliobox{
-        width:%;
-        margin:auto;
-    }
-  }
-  
-  @media (max-width: 991.98px) {
-      #aboutbox{
-        width:100%;
-      }
-   }
-  
-   @media (max-width: 1199.98px) {
-      #aboutbox{
-          width:90%;
-          margin-top: 10%;
-      }
-      .navbar-brand{
-        margin-right:15%;
-        }
-            #portfoliobox{
-                margin-top: 10%;
-        
-            }
-   } */
