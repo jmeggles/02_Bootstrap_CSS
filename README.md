@@ -1,4 +1,4 @@
-# Portfolio_Responsive
+# Portfolio
 
 This project is a responsive portfolio about myself based on reference images of how this project should look with minimual use of media queries.  Used semantic tags where applicable and a grid system of containers, rows, and columns.  Validation was succesfull on all pages.  Navbar and footer are consistent throughout.  Added hover color to all links and image cards to projects on portfolio page.  
 
