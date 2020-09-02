@@ -16,7 +16,7 @@ This project is a responsive portfolio about myself based on reference images of
 Brief discription about myself, experiences, and random facts. 
 
 ## Portfolio
-This page will continue to be updated with information of projects completed. 
+This repo is now updated with this [REACT PORTFOLIO](https://jmeggles.github.io/Portfolio-mini-with-React/).
 
 ## Contact
 Contains my contact info and social media links along with an easy fill form.
